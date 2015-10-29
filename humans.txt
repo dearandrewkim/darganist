@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+/* TEAM */
+    <Jane Doe> - Example Role 1 - <@twitterhandle>
+    <John Doe> - Example Role 2 - <http://www.example.com>
+
+/* THANKS */
+    <Example company> -- <http://www.example.com>
+    <Middleman Basis> -- <https://github.com/pzi/middleman-basis>
+
+/* SITE */
+    Last update: 2015-10-30
+    Language: English
+    Standards: CSS3, HTML5, JavaScript
+    Components: Apache Server Configs, Modernizr, Normalize.css, html5shiv
+    Software: Sublime Text
