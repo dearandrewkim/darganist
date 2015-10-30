@@ -1,0 +1,192 @@
+/**
+ * DEAR ANDREW KIM SCSS stylesheet 
+ * 
+ */
+/**
+ * 1. VARIABLES
+ * 2. TYPOGRAPHY
+ * 3. WRAPPING
+ * 4. COMPONENTS
+ */
+/*------------------------------------*\
+  1. VARIABLES
+\*------------------------------------*/
+/*------------------------------------*\
+  2. TYPOGRAPHY
+\*------------------------------------*/
+/* line 49, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Inconsolata; }
+
+/* line 53, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+body {
+  font-family: Inconsolata;
+  font-size: 16px;
+  color: #40474E; }
+
+/* line 60, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 0px; }
+
+/* line 67, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+p {
+  line-height: 1.7;
+  margin: 0 0 20px; }
+  /* line 70, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+  p a {
+    text-decoration: underline; }
+
+/* line 75, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+a {
+  color: #F62459; }
+
+/* line 79, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+a:hover {
+  color: #F62459;
+  text-decoration: none; }
+
+/* line 83, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+.description {
+  color: #F62459;
+  font-size: 14px;
+  font-family: 'Josefin Sans';
+  margin: 0 0 0px; }
+
+/* line 90, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+.date {
+  color: #F62459;
+  font-size: 14px;
+  text-transform: uppercase; }
+
+/*------------------------------------*\
+  3. WRAPPING
+\*------------------------------------*/
+/*
+.container {
+  max-width: 960px;
+  position: relative;
+}
+*/
+/* line 109, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+#stickyheader {
+  width: 100%;
+  height: 20px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  opacity: 1;
+  position: relative;
+  z-index: 999; }
+
+/* line 118, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+#stickyalias {
+  height: 20px;
+  margin-bottom: 10px; }
+
+/* line 126, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+#reviews .mix {
+  display: none;
+  border-width: 2px; }
+
+/* line 131, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+.mix.book {
+  border-top: 2px solid #F62459; }
+
+/* line 135, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+.mix.music {
+  border-top: 2px solid #446CB3; }
+
+/* line 139, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+.mix.film {
+  border-top: 2px solid #87D37C; }
+
+@media all and (min-width: 420px) {
+  /* line 144, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+  .container .mix,
+  .container .gap {
+    width: 32%; } }
+@media all and (min-width: 640px) {
+  /* line 151, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+  .container .mix,
+  .container .gap {
+    width: 23.5%; } }
+/*------------------------------------*\
+  4. COMPONENTS
+\*------------------------------------*/
+/* line 160, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+html, body {
+  width: 100%;
+  height: 100%; }
+
+/* line 165, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+#homebg {
+  width: 100%;
+  height: 100%;
+  background-color: #F62459;
+  /*  background: url(/images/bike.jpg) no-repeat center center fixed;
+      background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment : fixed;
+  */
+  vertical-align: middle; }
+  /* line 177, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+  #homebg p {
+    color: #fff; }
+  /* line 180, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+  #homebg .wrap {
+    position: absolute;
+    bottom: 40px;
+    height: 50%;
+    width: 30%;
+    padding-left: 20px; }
+  /* line 187, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+  #homebg .textbox {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center; }
+
+/* line 194, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+#reviews {
+  min-height: 800px; }
+
+/* line 198, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+nav {
+  background-color: #fff; }
+
+/* line 202, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+main {
+  padding-left: 20px; }
+
+/* line 208, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+footer {
+  position: relative;
+  height: 50px; }
+
+/* line 214, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+hr {
+  border: 0;
+  border-top: 3px solid #F62459; }
+
+/* line 219, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+img {
+  margin-bottom: 20px; }
+
+/* line 223, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+img.desaturate {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); }
+
+/* line 231, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+.invisible {
+  opacity: 0; }
+
+/* line 235, /home/andrew/Google Drive/darganist/source/stylesheets/custom.scss */
+.visible {
+  opacity: 1; }
+
+/*------------------------------------*\
+  5. NOT USED
+\*------------------------------------*/
