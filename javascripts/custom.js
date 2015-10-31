@@ -1,16 +1,18 @@
+// Sticky header JS
+
 $(function () {
     // Check the initial Position of the Sticky Header
-    var stickyHeaderTop = $('#stickyheader').offset().top;
+    var stickyHeaderTop = $('#header__nav').offset().top;
 
     $(window).scroll(function () {
         if ($(window).scrollTop() > stickyHeaderTop) {
-            $('#stickyheader').css({
+            $('#header__nav').css({
                 position: 'fixed',
                 top: '0px'
             });
-            $('main').css('margin-top', $('#stickyheader').outerHeight(true) + parseInt($('#stickyalias').css('marginBottom')));
+            $('main').css('margin-top', $('#header__nav').outerHeight(true) + parseInt($('#header__nav-helper').css('marginBottom')));
         } else {
-            $('#stickyheader').css({
+            $('#header__nav').css({
                 position: 'static',
                 top: '0px'
             });
@@ -19,6 +21,25 @@ $(function () {
     });
 });
 
+// MixItUp
+
 $(function(){
-    $('#reviews').mixItUp();
+    $('#main__reviews').mixItUp();
+});
+
+// Smooth Scrolling
+
+$(document).ready(function(){
+    $('a[href^="#"]').on('click',function (e) {
+        e.preventDefault();
+
+        var target = this.hash;
+        var $target = $(target);
+
+        $('html, body').stop().animate({
+            'scrollTop': $target.offset().top
+        }, 900, 'swing', function () {
+            window.location.hash = target;
+        });
+    });
 });
