@@ -43,3 +43,11 @@ $(document).ready(function(){
         });
     });
 });
+
+
+
+$('#main__reviews').mixItUp({
+    animation: {
+        animateResizeTargets: true
+    }
+});
