@@ -36,7 +36,8 @@
     <div id='header__nav' role='banner'>
       <nav class='navbar'>
         <div class='container'>
-          <a class='navbar-brand header__brand' href='/index.html#header__start'>darganist reviews</a>
+          <a href="../../#header__start"><div class='navbar-brand header__brand'>darganist reviews</div>
+          </a>
           <a href="../../about/"><div class='header__button pull-right' role='button'>About</div>
           </a>
         </div>
@@ -88,11 +89,15 @@
           </div>
           <div class='col-md-8'>
             <div class='main__overview'>
-              <p>title:</p>
-              <h1>Nightclubbing</h1>
-              <p>artist: Grace Jones</p>
-              <p>year: 1981</p>
-              <p>rating: 4</p>
+              <div class='main__overview--music'>
+                <h4>darganist music review</h4>
+                <p>title:</p>
+                <h1>Nightclubbing</h1>
+                <p>artist: Grace Jones</p>
+                <p>year: 1981</p>
+                <p>tldr:</p>
+                <hr>
+              </div>
             </div>
             <h2 id="jaymes">Jaymes</h2>
             
@@ -133,12 +138,20 @@
             <p>Listen to her music on a quiet Sunday and I promise that she’ll have you dancing like you’ve just been cured by a faith healer. Pull up to that goddamn bumper.</p>
             
             <p>P.S. This is Grace Jones at 64 years old. She’sÂ found the philosopher’s stone or something, I swear to god.</p>
-            <div class='embed-responsive embed-responsive-16by9'>
-              <iframe class='embed-responsive-item' src=''></iframe>
+            <div class='row main__score'>
+              <div class='col-sm-4'>
+                <p>Andrew rates it</p>
+                <h2>undecided</h2>
+              </div>
+              <div class='col-sm-4'>
+                <p>Jaymes rates it</p>
+                <h2>4.0</h2>
+              </div>
+              <div class='col-sm-4'>
+                <p>darganist rates it</p>
+                <h2>4.0</h2>
+              </div>
             </div>
-            <p>Andrew rates it undecided</p>
-            <p>Jaymes rates it 4</p>
-            <p>darganist rates it 4</p>
           </div>
         </div>
       </div>
@@ -150,6 +163,7 @@
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="../../javascripts/vendor/jquery.mixitup.min.js"></script>
     <script src="../../javascripts/vendor/bootstrap.min.js"></script>
+    <script src="../../javascripts/typed.js"></script>
     <script src="../../javascripts/custom.js"></script>
   </body>
 </html>

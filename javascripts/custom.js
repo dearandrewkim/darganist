@@ -51,3 +51,11 @@ $('#main__reviews').mixItUp({
         animateResizeTargets: true
     }
 });
+
+$(function(){
+      $(".hero__title").typed({
+        strings: ["darganist^2000 <br> we review^2000 stuff."],
+        contentType: 'html',
+        typeSpeed: 1
+      });
+  });

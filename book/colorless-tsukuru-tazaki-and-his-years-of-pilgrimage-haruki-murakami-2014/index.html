@@ -36,7 +36,8 @@
     <div id='header__nav' role='banner'>
       <nav class='navbar'>
         <div class='container'>
-          <a class='navbar-brand header__brand' href='/index.html#header__start'>darganist reviews</a>
+          <a href="../../#header__start"><div class='navbar-brand header__brand'>darganist reviews</div>
+          </a>
           <a href="../../about/"><div class='header__button pull-right' role='button'>About</div>
           </a>
         </div>
@@ -88,11 +89,15 @@
           </div>
           <div class='col-md-8'>
             <div class='main__overview'>
-              <p>title:</p>
-              <h1>Colorless Tsukuru Tazaki and His Years of Pilgrimage</h1>
-              <p>author: Haruki Murakami</p>
-              <p>year: 2014</p>
-              <p>rating: 4.5</p>
+              <div class='main__overview--book'>
+                <h4>darganist book review</h4>
+                <p>title:</p>
+                <h1>Colorless Tsukuru Tazaki and His Years of Pilgrimage</h1>
+                <p>author: Haruki Murakami</p>
+                <p>year: 2014</p>
+                <p>tldr:</p>
+                <hr>
+              </div>
             </div>
             <h2 id="andrew">Andrew</h2>
             
@@ -109,12 +114,20 @@
             <h2 id="jaymes">Jaymes</h2>
             
             <p>I’m reading this book in Japanese and will contribute my opinion when I finish in five years time.</p>
-            <div class='embed-responsive embed-responsive-16by9'>
-              <iframe class='embed-responsive-item' src=''></iframe>
+            <div class='row main__score'>
+              <div class='col-sm-4'>
+                <p>Andrew rates it</p>
+                <h2>4.5</h2>
+              </div>
+              <div class='col-sm-4'>
+                <p>Jaymes rates it</p>
+                <h2>undecided</h2>
+              </div>
+              <div class='col-sm-4'>
+                <p>darganist rates it</p>
+                <h2>4.5</h2>
+              </div>
             </div>
-            <p>Andrew rates it 4.5</p>
-            <p>Jaymes rates it undecided</p>
-            <p>darganist rates it 4.5</p>
           </div>
         </div>
       </div>
@@ -126,6 +139,7 @@
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="../../javascripts/vendor/jquery.mixitup.min.js"></script>
     <script src="../../javascripts/vendor/bootstrap.min.js"></script>
+    <script src="../../javascripts/typed.js"></script>
     <script src="../../javascripts/custom.js"></script>
   </body>
 </html>

@@ -36,7 +36,8 @@
     <div id='header__nav' role='banner'>
       <nav class='navbar'>
         <div class='container'>
-          <a class='navbar-brand header__brand' href='/index.html#header__start'>darganist reviews</a>
+          <a href="../../#header__start"><div class='navbar-brand header__brand'>darganist reviews</div>
+          </a>
           <a href="../../about/"><div class='header__button pull-right' role='button'>About</div>
           </a>
         </div>
@@ -88,11 +89,15 @@
           </div>
           <div class='col-md-8'>
             <div class='main__overview'>
-              <p>title:</p>
-              <h1>Dragging A Dead Deer Up a Hill</h1>
-              <p>artist: Grouper</p>
-              <p>year: 2008</p>
-              <p>rating: 3</p>
+              <div class='main__overview--music'>
+                <h4>darganist music review</h4>
+                <p>title:</p>
+                <h1>Dragging A Dead Deer Up a Hill</h1>
+                <p>artist: Grouper</p>
+                <p>year: 2008</p>
+                <p>tldr:</p>
+                <hr>
+              </div>
             </div>
             <h2 id="jaymes">Jaymes</h2>
             
@@ -111,9 +116,20 @@
             <div class='embed-responsive embed-responsive-16by9'>
               <iframe class='embed-responsive-item' src='https://www.youtube.com/embed/NEcCny2X4Ds'></iframe>
             </div>
-            <p>Andrew rates it 2</p>
-            <p>Jaymes rates it 5</p>
-            <p>darganist rates it 3</p>
+            <div class='row main__score'>
+              <div class='col-sm-4'>
+                <p>Andrew rates it</p>
+                <h2>2.0</h2>
+              </div>
+              <div class='col-sm-4'>
+                <p>Jaymes rates it</p>
+                <h2>5.0</h2>
+              </div>
+              <div class='col-sm-4'>
+                <p>darganist rates it</p>
+                <h2>3.5</h2>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -125,6 +141,7 @@
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="../../javascripts/vendor/jquery.mixitup.min.js"></script>
     <script src="../../javascripts/vendor/bootstrap.min.js"></script>
+    <script src="../../javascripts/typed.js"></script>
     <script src="../../javascripts/custom.js"></script>
   </body>
 </html>
